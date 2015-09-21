@@ -15,7 +15,7 @@ config.module.loaders.push(
         loader: "style!css!autoprefixer-loader!sass"
       },
       {
-        test: /\.jsx?$/, loaders: ['babel'],
+        test: /\.jsx?$/, loaders: ['babel?stage=0'],
         exclude: [node_modules_dir],
         include: path.join(__dirname, 'src')
       }

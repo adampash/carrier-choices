@@ -1,2 +1,8 @@
 @import 'base';
+@import 'kinja_fonts';
+@import 'social';
 
+#root {
+  max-width: 636px;
+  width: 100%;
+}

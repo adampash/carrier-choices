@@ -12,7 +12,11 @@ export default class Answer extends React.Component {
 
     let style = styles.answer
     let dotStyle = styles.dot
-    if (this.props.selected) {
+    if (this.props.inactive) {
+      style = {...style, ...styles.inactive}
+      dotStyle = {...dotStyle, ...styles.inactiveDot}
+    }
+    else if (this.props.selected) {
       style = {...style, ...styles.selected}
       dotStyle = {...dotStyle, ...styles.dotSelected}
     }
@@ -53,5 +57,11 @@ const styles = {
     backgroundColor: '#709602',
     border: 'none'
   },
+  inactive: {
+    color: '#ccc',
+  },
+  inactiveDot: {
+    border: '2px solid #ccc'
+  }
 }
 

@@ -9,15 +9,17 @@ export default class Question extends React.Component {
   }
 
   renderAnswers() {
-    let { question, response } = this.props
+    let { question, response, na, active } = this.props
     let { answers } = question
     return(
-      answers.map((answer) => {
+      answers.map((answer, index) => {
         return(
           <Answer
             answer={answer}
+            key={ index }
             selected={answer.key === response}
             handleAnswer={this.handleAnswer.bind(this)}
+            inactive={na || !active}
           />
         )
       })
@@ -25,13 +27,24 @@ export default class Question extends React.Component {
   }
 
   render() {
-    let { question } = this.props
+    let { question, active, na } = this.props
+    let containerStyle = styles.questionContainer
+    if ( !active || na )
+      containerStyle = { ...containerStyle, ...styles.inactive }
     return(
-      <div style={styles.questionContainer}>
+      <div style={ containerStyle }>
         <div style={styles.question}>
           { question.text}
         </div>
         { this.renderAnswers() }
+        {(!active || na) &&
+          <div style={styles.cover} />
+        }
+        { na &&
+          <div style={ styles.na }>
+            This question is not applicable given your previous answers.
+          </div>
+        }
       </div>
     )
   }
@@ -49,8 +62,24 @@ const styles = {
     width: '100%',
     padding: '50px',
     marginBottom: '15px',
+    position: 'relative'
   },
   question: {
     marginBottom: '15px',
+  },
+  inactive: {
+    color: '#ccc'
+  },
+  cover: {
+    position: 'absolute',
+    top: 0,
+    bottom: 0,
+    left: 0,
+    right: 0
+  },
+  na: {
+    fontWeight: 'normal',
+    fontFamily: 'ProximaNovaCond',
+    color: '#1a1a1a'
   }
 }

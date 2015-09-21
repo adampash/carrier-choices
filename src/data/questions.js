@@ -73,30 +73,30 @@ const Questions = [
         key: 'sell'
       },
       {
-        text: "I'm okay with trading in my old phones.",
+        text: "I'm okay with trading in my old phone.",
         key: 'trade',
       }
     ],
     optional: false
   },
-  {
-    text: "How often do you want to upgrade?",
-    answers: [
-      {
-        text: "Every six months or less.",
-        key: 'six'
-      },
-      {
-        text: "Between one and two years.",
-        key: 'one_and_two'
-      },
-      {
-        text: "Every two years or more.",
-        key: 'two_or_more'
-      }
-    ],
-    optional: true
-  },
+  // {
+  //   text: "How often do you want to upgrade?",
+  //   answers: [
+  //     {
+  //       text: "Every six months or less.",
+  //       key: 'six'
+  //     },
+  //     {
+  //       text: "Between one and two years.",
+  //       key: 'one_and_two'
+  //     },
+  //     {
+  //       text: "Every two years or more.",
+  //       key: 'two_or_more'
+  //     }
+  //   ],
+  //   optional: true
+  // },
   // {
   //   text: "Are subsidies or carrier financing cheaper?",
   //   answers: [
