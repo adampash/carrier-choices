@@ -78,6 +78,7 @@ const styles = {
   button: {
     fontFamily: 'ProximaNovaCond',
     fontSize: '16px',
+    fontWeight: 'bold',
     lineHeight: '24px',
     color: '#709602',
     maxWidth: '300px',

@@ -15,7 +15,7 @@ const Results = {
     headline: "Buy your phone outright.",
     text: "Your best bet is to buy your phone for full price. Just make sure the phone is compatible with your carrier's network and you can buy it from anywhere. Shop around!"
   },
-  lease: {
+  carrier_lease: {
     headline: "Get your phone on a lease from your carrier.",
     text: "You can pay your carrier a monthly fee to borrow a phone.",
     tmobile: "The good news is, you can upgrade much more frequently. The bad news is your lease is limited to a few, select devices like the newest iPhone, or Samsung Galaxy S handset.",
