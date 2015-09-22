@@ -3,9 +3,12 @@ import { connect, dispatch } from 'react-redux'
 import Form from '../components/Form'
 import Result from '../components/Result'
 import { clearResult, clearResponses } from '../actions/responses'
+import KinjaResizer from '../components/KinjaResizer'
 
 
-export default class AppContainer extends React.Component {
+let AppContainer
+export default AppContainer = React.createClass({
+  mixins: [KinjaResizer],
   renderResult() {
     let { result, responses, dispatch } = this.props
     let carrier = responses[0]
@@ -19,7 +22,11 @@ export default class AppContainer extends React.Component {
         }}
       />
     )
-  }
+  },
+
+  componentDidUpdate() {
+    this.resize()
+  },
 
   render() {
     let { result } = this.props
@@ -31,7 +38,7 @@ export default class AppContainer extends React.Component {
       )
     }
   }
-}
+})
 
 function select(state) {
   return {

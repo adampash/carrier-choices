@@ -5,9 +5,7 @@ const path = require('path')
 const config = require('./webpack.common.config')
 const webpack = require('webpack')
 
-if (config.home) {
-  url = "http://0.0.0.0"
-}
+const url = "http://0.0.0.0"
 
 config.entry.push('webpack-hot-middleware/client')
 config.output = {
@@ -24,7 +22,7 @@ config.plugins = [
     __CLIENT__: true,
     __SERVER__: false,
     __DEVELOPMENT__: true,
-    __DEVTOOLS__: true  // <-------- DISABLE redux-devtools HERE (disable w/false)
+    __DEVTOOLS__: false  // <-------- DISABLE redux-devtools HERE (disable w/false)
   }),
 ]
 config.devtool = 'eval-source-map'

@@ -32,17 +32,18 @@ export default class Question extends React.Component {
     if ( !active || na )
       containerStyle = { ...containerStyle, ...styles.inactive }
     return(
-      <div style={ containerStyle }>
+      <div style={ containerStyle } className="result_container">
         <div style={styles.question}>
           { question.text}
         </div>
         { this.renderAnswers() }
         {(!active || na) &&
-          <div style={styles.cover} />
-        }
-        { na &&
-          <div style={ styles.na }>
-            This question is not applicable given your previous answers.
+          <div style={styles.cover} className="result_container">
+            { na &&
+              <div style={ styles.na }>
+                This question is not applicable given your previous answers.
+              </div>
+            }
           </div>
         }
       </div>
@@ -60,7 +61,7 @@ const styles = {
     backgroundColor: '#F2F2F2',
     maxWidth: '636px',
     width: '100%',
-    padding: '50px',
+    padding: '45px 50px',
     marginBottom: '15px',
     position: 'relative'
   },
@@ -75,11 +76,12 @@ const styles = {
     top: 0,
     bottom: 0,
     left: 0,
-    right: 0
+    right: 0,
+    padding: '45px 50px',
   },
   na: {
-    fontWeight: 'normal',
-    fontFamily: 'ProximaNovaCond',
+    // fontWeight: 'normal',
+    // fontFamily: 'ProximaNovaCond',
     color: '#1a1a1a'
   }
 }

@@ -49,13 +49,16 @@ const styles = {
   dot: {
     width: '16px',
     height: '16px',
+    // borderRadius: '50%',
     borderRadius: '8px',
     border: '2px solid black',
+    padding: 0,
     marginRight: '22px',
   },
   dotSelected: {
     backgroundColor: '#709602',
-    border: 'none'
+    border: '2px solid #709602',
+    // border: 'none'
   },
   inactive: {
     color: '#ccc',

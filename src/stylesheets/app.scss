@@ -2,7 +2,34 @@
 @import 'kinja_fonts';
 @import 'social';
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #root {
   max-width: 636px;
   width: 100%;
+}
+
+// .isvg {
+//   width: 18px;
+//   margin-top: 3px;
+//   flex: 0 0;
+//   svg {
+//     width: 20px;
+//     height: 20px;
+//     fill: white;
+//     stroke: black;
+//   }
+// }
+
+.stylish{display:block;width:16px;height:16px;border-radius:50%;border:2px solid #ccc;font-size:20px;color:#666;background:white; margin-right: 22px;}
+
+a {
+  color: #709602;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }

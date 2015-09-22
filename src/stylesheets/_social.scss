@@ -33,3 +33,24 @@
     }
   }
 }
+
+
+@media (max-width: 480px) {
+  .social {
+    max-width: 320px;
+    a {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .start-over a {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+    .button svg {
+      width: 36px;
+    }
+  }
+  .result_container {
+    padding: 25px !important;
+  }
+}
