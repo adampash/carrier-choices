@@ -22,7 +22,7 @@ export default class Answer extends React.Component {
     }
     return(
       <div style={style} onClick={this.handleClick.bind(this)}>
-        <div style={dotStyle} />{ answer.text }
+        <div style={dotStyle}>&nbsp;</div>{ answer.text }
       </div>
     )
   }
@@ -50,7 +50,7 @@ const styles = {
     width: '16px',
     height: '16px',
     // borderRadius: '50%',
-    borderRadius: '8px',
+    // borderRadius: '8px',
     border: '2px solid black',
     padding: 0,
     marginRight: '22px',
