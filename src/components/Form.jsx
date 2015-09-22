@@ -15,7 +15,6 @@ export default class Form extends React.Component {
       numAnswered
     } = this.props
     let result = this.calculateResult()
-    console.log(result)
 
     let complete = typeof result === 'string'
     return Questions.map( (question, index) => {
@@ -42,7 +41,6 @@ export default class Form extends React.Component {
         if (typeof acc === 'string') return acc
           let key = responses[current]
         if (typeof acc[key] === 'string') {
-          console.log('the thing is', acc[key])
           // result = acc[key]
           return acc[key]
         } else {

@@ -32,8 +32,8 @@ const styles = {
   answer: {
     fontFamily: 'Elizabeth Serif',
     fontWeight: 'normal',
-    fontSize: '20px',
-    lineHeight: '35px',
+    // fontSize: '20px',
+    // lineHeight: '35px',
     color: '#1A1A1A',
     display: 'flex',
     alignItems: 'center',

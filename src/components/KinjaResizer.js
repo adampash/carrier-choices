@@ -10,7 +10,7 @@ let KinjaResizer = {
 
   resize() {
     let height = this.getHeight() + 20
-    console.log(height)
+    // console.log(height)
     window.top.postMessage(
       JSON.stringify({
         kinja: {

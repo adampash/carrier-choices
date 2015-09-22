@@ -2,9 +2,14 @@
 @import 'kinja_fonts';
 @import 'social';
 
+html {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 #root {
