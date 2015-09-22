@@ -2,7 +2,7 @@ import React from 'react'
 import Results from '../data/results'
 import SocialBar from './SocialBar'
 
-const fb_image = require('file!../assets/fb_image.png')
+const fb_image = require('file!../assets/fb_image2.png')
 
 export default class Result extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export default class Result extends React.Component {
         </div>
         <SocialBar
           startOver={ this.props.startOver }
-          tw_text={`${Results[answer].display} is the best way for me to buy the new iPhone. Find out what works best for you here`}
+          tw_text={`${Results[answer].display} is the best way for me to buy the new iPhone. Find out what works best for you here:`}
           text={"How Should You Buy Your New iPhone? This Tool Will Guide You"}
           fb_description={`${Results[answer].display} is the best bet for me.`}
           fb_image={`http://gawker-labs.com/carrier_choices/${fb_image}`}

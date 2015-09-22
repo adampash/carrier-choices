@@ -69,7 +69,7 @@ const styles = {
     marginBottom: '15px',
   },
   inactive: {
-    color: '#ccc'
+    color: '#ddd'
   },
   cover: {
     position: 'absolute',

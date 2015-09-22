@@ -35,7 +35,7 @@ const Results = {
   apple_lease: {
     display: "The Apple lease program",
     headline: "Lease your phone from Apple.",
-    text: "This year, Apple has introduced <a href=\"http://www.apple.com/shop/iphone/iphone-upgrade-program\" target=\"_blank\">a new lease program</a> that bypasses carriers entirely. You’ll pay Apple a monthly fee and, when a new iPhone comes out, you can trade in your old one to upgrade immediately. You won’t get to keep your phone, but you can get the new one every year. Best of all, you can change carriers whenever you want!"
+    text: "This year, Apple introduced <a href=\"http://www.apple.com/shop/iphone/iphone-upgrade-program\" target=\"_blank\">a new lease program</a> that bypasses carriers entirely. You’ll pay Apple a monthly fee and, when a new iPhone comes out, you can trade in your old one to upgrade immediately. You won’t get to keep your phone, but you can get the new one every year. Best of all, you can change carriers whenever you want!"
   }
 }
 
