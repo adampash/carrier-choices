@@ -79,6 +79,20 @@ const Questions = [
     ],
     optional: false
   },
+  {
+    text: "Do you want AppleCare+?",
+    answers: [
+      {
+        text: "Yes.",
+        key: 'yes'
+      },
+      {
+        text: "No.",
+        key: 'no',
+      }
+    ],
+    optional: false
+  },
   // {
   //   text: "How often do you want to upgrade?",
   //   answers: [

@@ -32,6 +32,11 @@ const Results = {
     headline: "Use an Early Upgrade plan.",
     text: "With these plans, you can trade in your phone early to get a new handset. If you lose or break your old handset, though, you’ll be on the hook for the full price."
   },
+  apple_finance: {
+    display: "Apple financing",
+    headline: "Finance your phone through Apple.",
+    text: "Apple introduced a new iPhone Upgrade Program, but it also doubles as financing. You can pay Apple a monthly fee for two years. At the end, you own your device. This program also includes AppleCare+, so you're covered if your phone stops working or breaks. You're even free to leave your carrier whenever you want."
+  },
   apple_lease: {
     display: "The Apple lease program",
     headline: "Lease your phone from Apple.",
