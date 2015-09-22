@@ -30,7 +30,7 @@ export default class Answer extends React.Component {
 
 const styles = {
   answer: {
-    fontFamily: 'Elizabeth Serif',
+    fontFamily: 'ElizabethSerif',
     fontWeight: 'normal',
     // fontSize: '20px',
     // lineHeight: '35px',

@@ -53,7 +53,7 @@ export default class Question extends React.Component {
 
 const styles = {
   questionContainer: {
-    fontFamily: 'Elizabeth Serif',
+    fontFamily: 'ElizabethSerif',
     fontWeight: 'bold',
     fontSize: '20px',
     lineHeight: '35px',

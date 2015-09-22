@@ -32,7 +32,7 @@ export default class Result extends React.Component {
 
 const styles = {
   container: {
-    fontFamily: 'Elizabeth Serif',
+    fontFamily: 'ElizabethSerif',
     fontSize: '20px',
     lineHeight: '35px',
     color: '#1A1A1A',

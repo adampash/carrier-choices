@@ -85,7 +85,7 @@ const styles = {
     border: '1px solid #709602',
     textAlign: 'center',
     display: 'block',
-    margin: '0 auto',
+    margin: '55px auto 0',
     outline: 'none',
     cursor: 'pointer',
     ':hover': {

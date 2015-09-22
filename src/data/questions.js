@@ -30,7 +30,7 @@ const Questions = [
   //   optional: false
   // },
   {
-    text: "What's your carrier?",
+    text: "What’s your carrier?",
     answers: [
       {
         text: "Verizon",
@@ -73,7 +73,7 @@ const Questions = [
         key: 'sell'
       },
       {
-        text: "I'm okay with trading in my old phone.",
+        text: "I’m okay with trading in my old phone.",
         key: 'trade',
       }
     ],
