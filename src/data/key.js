@@ -6,7 +6,10 @@ const Key = {
         yes: 'apple_finance',
         no: 'financing'
       },
-      trade: 'apple_lease'
+      trade: {
+        yes: 'apple_lease',
+        no: 'carrier_lease'
+      }
     },
   },
   att: {
@@ -26,7 +29,10 @@ const Key = {
         yes: 'apple_finance',
         no: 'financing'
       },
-      trade: 'carrier_lease'
+      trade: {
+        yes: 'apple_lease',
+        no: 'carrier_lease'
+      }
     },
   },
   sprint: {
@@ -36,7 +42,10 @@ const Key = {
         yes: 'apple_finance',
         no: 'financing'
       },
-      trade: 'apple_lease'
+      trade: {
+        yes: 'apple_lease',
+        no: 'carrier_lease'
+      }
     },
   }
 }

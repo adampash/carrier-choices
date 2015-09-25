@@ -24,8 +24,10 @@ const Results = {
     display: "A carrier lease",
     headline: "Get your phone on a lease from your carrier.",
     text: "You can pay your carrier a monthly fee to borrow a phone.",
-    tmobile: "Currently, T-Mobile’s <a href=\"http://explore.t-mobile.com/jump-on-demand-phone-upgrade\" target=\"_blank\">Jump! On Demand</a> has a promo that’s cheaper than Apple’s lease. So, if you want to get the newest iPhone next year, but save some money in the meantime, lease it straight from T-Mobile. You can upgrade up to three times a year, though Apple only releases new iPhones once a year anyway.",
-    sprint: "After two years, you can choose to buy out your phone, or trade it in for a new one."
+    tmobile: "Currently, T-Mobile’s <a href=\"http://explore.t-mobile.com/jump-on-demand-phone-upgrade\" target=\"_blank\">Jump! On Demand</a> has a promo that’s cheaper than Apple’s lease. So, if you want to get the newest iPhone next year, but save some money in the meantime, lease it straight from T-Mobile. You can upgrade up to three times a year, though Apple only releases new iPhones once a year anyway. If you want AppleCare+, buy it directly from Apple as long as this deal is going on.",
+    // sprint: "After two years, you can choose to buy out your phone, or trade it in for a new one.",
+    sprint: `Currently, Sprint is running a deal where you can lease a new iPhone for <a href="http://www.sprint.com/landings/iphone-forever/index_p.html#!/" target="_blank">less than Apple's plan</a>. If you trade in your old one, it can drop down as low as $1 per month. With the difference, you can buy AppleCare+ from Apple directly.`,
+    verizon: "Verizon allows you to finance your phone with its normal equipment installment plan. However, you can <a href=\"http://www.verizonwireless.com/landingpages/iphone/#why-verizon\" target=\"_blank\">upgrade every year</a>. This is ideal if you want to lease your iPhone, but don't want to pay extra for AppleCare+."
   },
   early: {
     display: "An early upgrade plan",
